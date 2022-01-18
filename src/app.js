@@ -11,7 +11,6 @@ app.use(morgan("dev"));
 
 initRoutes(app);
 
-
 app.listen(process.env.PORT, () => {
   debug(`Server running on port ${process.env.PORT}`);
 });
