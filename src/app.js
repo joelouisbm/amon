@@ -8,9 +8,10 @@ require("dotenv").config();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
-
 initRoutes(app);
 
+
+// esto essssssssssssss
 app.listen(process.env.PORT, () => {
   debug(`Server running on port ${process.env.PORT}`);
 });
